@@ -50,6 +50,12 @@ public class PartitionRequestClientFactoryTest {
 
 	private final static int SERVER_PORT = NetUtils.getAvailablePort();
 
+	// Verify Travis
+	@Test
+	public void test() {
+
+	}
+
 	@Test
 	public void testResourceReleaseAfterInterruptedConnect() throws Exception {
 
